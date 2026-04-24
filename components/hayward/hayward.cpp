@@ -13,7 +13,7 @@ using namespace esphome::hayward::protocol;
 
 static const char *const TAG = "hayward";
 
-static std::string join_strings_(const std::ector<std::string> &parts) {
+static std::string join_strings_(const std::vector<std::string> &parts) {
   if (parts.empty()) {
     
     return "none";
